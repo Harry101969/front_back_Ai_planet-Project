@@ -8,7 +8,7 @@ export default defineConfig({
     proxy: {
       '/api': {
         // target: 'https://backend-ai-planet.vercel.app', // Replace with your actual backend URL
-        target: 'https://backend-ai-planet.vercel.app',
+        target: 'http://localhost:3004',
         changeOrigin: true,
         secure: false,
       },
